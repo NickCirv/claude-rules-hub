@@ -1,0 +1,36 @@
+{
+  "name": "claude-rules-hub",
+  "version": "1.0.0",
+  "description": "Community rule packs for Claude Code — one-click install to .claude/rules/",
+  "type": "module",
+  "bin": {
+    "claude-rules-hub": "./bin/hub.js"
+  },
+  "files": [
+    "bin/",
+    "src/",
+    "rules/",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "test": "node bin/hub.js list"
+  },
+  "keywords": [
+    "claude",
+    "claude-code",
+    "ai",
+    "rules",
+    "coding-standards",
+    "linting"
+  ],
+  "author": "Cirvgreen",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^5.3.0",
+    "commander": "^12.1.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
