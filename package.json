@@ -14,7 +14,7 @@
     "LICENSE"
   ],
   "scripts": {
-    "test": "node bin/hub.js list"
+    "test": "node --test"
   },
   "keywords": [
     "claude",
@@ -31,6 +31,6 @@
     "commander": "^12.1.0"
   },
   "engines": {
-    "node": ">=18.0.0"
+    "node": ">=20"
   }
 }
